@@ -22,7 +22,7 @@ RDEPEND="
 	$(python_gen_cond_dep '
 		=dev-python/ajsonrpc-1.2*[${PYTHON_USEDEP}]
 		=dev-python/bottle-0.13*[${PYTHON_USEDEP}]
-		=dev-python/click-8.*[${PYTHON_USEDEP}]
+		=dev-python/click-8*[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
 		=dev-python/marshmallow-3*[${PYTHON_USEDEP}]
 		>=dev-python/pyelftools-0.30[${PYTHON_USEDEP}]
