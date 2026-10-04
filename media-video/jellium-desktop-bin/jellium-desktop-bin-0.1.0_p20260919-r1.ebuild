@@ -18,7 +18,7 @@ EAPI=8
 JELLIUM_RUN="35469986313"
 JELLIUM_SHA="14dc084"
 
-inherit desktop
+inherit desktop xdg-utils
 
 DESCRIPTION="Unofficial Jellyfin desktop client built on CEF and mpv (binary)"
 HOMEPAGE="https://github.com/andrewrabert/jellium-desktop"
@@ -90,9 +90,11 @@ src_install() {
 }
 
 pkg_postinst() {
-	xdg_icon_cache_update()
+	xdg_icon_cache_update
+	xdg_desktop_database_update
 }
 
 pkg_postrm() {
-	xdg_icon_cache_update()
+	xdg_icon_cache_update
+	xdg_desktop_database_update
 }
