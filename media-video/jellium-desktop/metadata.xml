@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>CHANGE-ME@example.com</email>
+		<name>CHANGE ME</name>
+	</maintainer>
+	<longdescription>
+		Jellium Desktop is an unofficial desktop client for Jellyfin built on
+		the Chromium Embedded Framework (CEF) with mpv for video playback.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">andrewrabert/jellium-desktop</remote-id>
+	</upstream>
+</pkgmetadata>
